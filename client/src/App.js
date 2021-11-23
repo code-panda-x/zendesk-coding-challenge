@@ -1,11 +1,16 @@
 import React, {Component} from 'react'
 import { fetchAllTickets } from './api/api';
+import { groupTickets } from './Tickets/groupTickets';
+import AllTickets from './Tickets/List';
+
 import './App.css';
 
 class App extends Component {
   state = {
     tickets: null,
-    error: null
+    error: null,
+    currentPage: 0,
+    ticketsPerPage: 25,
   }
 
   componentDidMount() {
@@ -25,18 +30,33 @@ class App extends Component {
   }
 
   render() {
-    const {error} = this.state
+    const { tickets, ticketsPerPage, error, currentPage} = this.state
+    const groupedTickets = tickets && groupTickets(tickets, ticketsPerPage)
+
     return (
       <div className="App">
         {
           error ? 
           (
             <p>Ohhh no~ There's an error: 
-            <span> {error.message}</span>
+              <span> {error.message}</span>
             </p>
-          ) : 
+          ): 
           (
-            <div>succeed</div>
+            <div>
+              {
+                tickets ? 
+                (
+                  <AllTickets
+                    ticketCount={tickets && tickets.length}
+                    ticketsPerPage={groupedTickets ? groupedTickets[currentPage].length : null}
+                  />
+                ):
+                (
+                  <text>Loading tickets</text>
+                )
+              }
+            </div>
           )
         }      
       </div>

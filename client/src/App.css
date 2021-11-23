@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.ticket-list {
+  border-radius: 20px;
+  color: #03363d;
+  background: white;
+  margin: 15px auto;
+  padding: 10px;
+  width: 900px;
+  box-shadow: 0px 3px 15px rgba(33, 47, 128, 0.2);
+}
+
+.ticket-list__title {
+  font-family: "Times New Roman", Times, serif;
+}
