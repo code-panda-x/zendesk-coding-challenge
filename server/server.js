@@ -10,7 +10,7 @@ server.get('/', function(req, res) {
   axios.get('https://zcckehanmeng.zendesk.com/api/v2/requests.json', 
   { headers: {"Authorization" : 'Basic a2VoYW4ubWVuZ0B0YW11LmVkdS90b2tlbjo4TEtoRVJPQ0tObFE4ZWxDOHBGc2dpNml0VmdFcFUzOUdacU1VbGV2' }})
     .then(function(response) {
-      console.log(response.data.requests)
+      //console.log(response.data.requests)
       console.log('Successfully called ZenDesk API...')
       res.send(response.data.requests)
     }).catch(function(error) {
