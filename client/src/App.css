@@ -38,7 +38,7 @@
 }
 
 .ticket-list {
-  border-radius: 20px;
+  border-radius: 10px;
   color: #03363d;
   background: white;
   margin: 15px auto;
@@ -49,4 +49,140 @@
 
 .ticket-list__title {
   font-family: "Times New Roman", Times, serif;
+}
+
+.ticket-list-item {
+  border: 3px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.ticket-list-item:hover {
+  background: #f3f0c3;
+  transition: 0.9s;
+}
+
+.ticket-list-item__header {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.date {
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+  padding-left: 10px;
+}
+
+.right {
+  float: right;
+  padding-right: 10px;
+}
+
+.error {
+  background: white;
+  border: 2px solid salmon;
+  border-radius: 5px;
+  width: 400px;
+  padding: 5px;
+  margin: 40px auto;
+}
+
+.error__message {
+  color: red;
+}
+
+.page-selector {
+  max-width: 500px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.page-selector__link {
+  border: 0.1px solid lightgrey;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  user-select: none;
+  cursor: pointer;
+}
+
+.current-page {
+  background: #f7d462;
+  color: white;
+}
+
+.page-selector__link:hover {
+  background: rgb(234, 245, 175);
+  color: white;
+}
+
+.page-selector__link:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.page-selector__link:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.modal {
+  background: rgb(234, 245, 175);
+  border: 0.5px lightgray;
+  border-radius: 10px;
+  width: 600px;
+  outline: slategray;
+  padding: 30px;
+  text-align: center;
+  margin-top: -200px;
+  box-shadow: 0px 3px 15px rgba(33, 47, 128, 0.2);
+}
+
+.ReactModalPortal > div {
+  opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 200ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.button {
+  background: #ffffff;
+  border: none;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.dotted-line {
+  border-bottom: 0.5px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.ticket-modal__description {
+  padding: 15px;
+  text-align: left;
+  margin: 10px;
+  border-bottom: 0.5px solid lightgray;
 }
