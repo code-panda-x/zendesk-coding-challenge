@@ -4,8 +4,6 @@ import { fetchAllTickets } from './api/api';
 import { groupTickets } from './Tickets/groupTickets';
 import { formatDate } from './Tickets/formatDate';
 import AllTickets from './Tickets/List';
-
-
 import './App.css';
 
 class App extends Component {
