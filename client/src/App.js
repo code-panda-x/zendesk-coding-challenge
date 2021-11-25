@@ -22,9 +22,12 @@ class App extends Component {
       .then(res => {
         if (res === 'Network Error') {
           this.setState({error: {message: "Network Error! check local server"}})}
-        else if(res === 404) {this.setState({error: {message: "API Not Found"}})} 
-        else if (res === 401) {this.setState({error: {message: "Authentication Error"}})} 
-        else {this.setState({ tickets: res})}
+        else if(res === 404) {
+          this.setState({error: {message: "API Not Found"}})} 
+        else if (res === 401) {
+          this.setState({error: {message: "Authentication Error"}})} 
+        else {
+          this.setState({ tickets: res})}
       })
       .catch(error => this.setState({ error }))
   }

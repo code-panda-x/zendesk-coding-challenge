@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render App correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="header"
+  >
+    <h1>
+      Ticket Viewer
+    </h1>
+  </header>
+  <div>
+    <text>
+      Loading tickets
+    </text>
+    <Modal
+      ariaHideApp={true}
+      bodyOpenClassName="ReactModal__Body--open"
+      className="modal"
+      closeTimeoutMS={200}
+      contentElement={[Function]}
+      contentLabel="Ticket Details"
+      isOpen={false}
+      onRequestClose={[Function]}
+      overlayElement={[Function]}
+      parentSelector={[Function]}
+      portalClassName="ReactModalPortal"
+      preventScroll={false}
+      role="dialog"
+      shouldCloseOnEsc={true}
+      shouldCloseOnOverlayClick={true}
+      shouldFocusAfterRender={true}
+      shouldReturnFocusAfterClose={true}
+    >
+      <button
+        className="button"
+        onClick={[Function]}
+      >
+        Back to all tickets
+      </button>
+    </Modal>
+  </div>
+</div>
+`;

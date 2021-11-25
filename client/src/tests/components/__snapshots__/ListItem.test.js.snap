@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render TicketListItem correctly 1`] = `
+<div
+  className="ticket-list-item"
+  onClick={[Function]}
+>
+  <div
+    className="ticket-list-item__header"
+  >
+    <p>
+      <span
+        className="subject"
+      >
+        New ticket
+      </span>
+      <span
+        className="right"
+      >
+         ID: 
+        1
+      </span>
+    </p>
+  </div>
+  <div
+    className="ticket-list-item__header"
+  >
+    <p>
+      <span
+        className="date"
+      >
+        Wed Nov 24 2021
+      </span>
+      <span
+        className="right"
+      >
+         Status: 
+        open
+      </span>
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render TicketList correctly 1`] = `
+<div
+  className="ticket-list"
+>
+  <h2
+    className="ticket-list__title"
+  >
+     Total 
+    20
+     tickets, 
+    20
+     on this page
+  </h2>
+  <TicketListItem
+    key="1"
+    ticket={
+      Object {
+        "description": "Ticket 1",
+        "id": 1,
+      }
+    }
+  />
+  <TicketListItem
+    key="2"
+    ticket={
+      Object {
+        "description": "Ticket 2",
+        "id": 2,
+      }
+    }
+  />
+  <TicketListItem
+    key="3"
+    ticket={
+      Object {
+        "description": "Ticket 3",
+        "id": 3,
+      }
+    }
+  />
+  <TicketListItem
+    key="4"
+    ticket={
+      Object {
+        "description": "Ticket 4",
+        "id": 4,
+      }
+    }
+  />
+  <TicketListItem
+    key="5"
+    ticket={
+      Object {
+        "description": "Ticket 5",
+        "id": 5,
+      }
+    }
+  />
+  <TicketListItem
+    key="6"
+    ticket={
+      Object {
+        "description": "Ticket 6",
+        "id": 6,
+      }
+    }
+  />
+  <TicketListItem
+    key="7"
+    ticket={
+      Object {
+        "description": "Ticket 7",
+        "id": 7,
+      }
+    }
+  />
+  <TicketListItem
+    key="8"
+    ticket={
+      Object {
+        "description": "Ticket 8",
+        "id": 8,
+      }
+    }
+  />
+  <TicketListItem
+    key="9"
+    ticket={
+      Object {
+        "description": "Ticket 9",
+        "id": 9,
+      }
+    }
+  />
+  <TicketListItem
+    key="10"
+    ticket={
+      Object {
+        "description": "Ticket 10",
+        "id": 10,
+      }
+    }
+  />
+  <TicketListItem
+    key="11"
+    ticket={
+      Object {
+        "description": "Ticket 11",
+        "id": 11,
+      }
+    }
+  />
+  <TicketListItem
+    key="12"
+    ticket={
+      Object {
+        "description": "Ticket 12",
+        "id": 12,
+      }
+    }
+  />
+  <TicketListItem
+    key="13"
+    ticket={
+      Object {
+        "description": "Ticket 13",
+        "id": 13,
+      }
+    }
+  />
+  <TicketListItem
+    key="14"
+    ticket={
+      Object {
+        "description": "Ticket 14",
+        "id": 14,
+      }
+    }
+  />
+  <TicketListItem
+    key="15"
+    ticket={
+      Object {
+        "description": "Ticket 15",
+        "id": 15,
+      }
+    }
+  />
+  <TicketListItem
+    key="16"
+    ticket={
+      Object {
+        "description": "Ticket 16",
+        "id": 16,
+      }
+    }
+  />
+  <TicketListItem
+    key="17"
+    ticket={
+      Object {
+        "description": "Ticket 17",
+        "id": 17,
+      }
+    }
+  />
+  <TicketListItem
+    key="18"
+    ticket={
+      Object {
+        "description": "Ticket 18",
+        "id": 18,
+      }
+    }
+  />
+  <TicketListItem
+    key="19"
+    ticket={
+      Object {
+        "description": "Ticket 19",
+        "id": 19,
+      }
+    }
+  />
+  <TicketListItem
+    key="20"
+    ticket={
+      Object {
+        "description": "Ticket 20",
+        "id": 20,
+      }
+    }
+  />
+  <ul
+    className="page-selector"
+  />
+</div>
+`;
